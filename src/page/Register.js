@@ -28,7 +28,7 @@ function Register() {
     <div style={{display: "flex", alignItems:"center" , justifyContent: "center", width:"65vw", marginTop:"10vh", marginLeft:"18vw"}}>
     <Card>
       <Grid container spacing={2} justify-content="space-between">
-        <Grid lg={3} item style={{ backgroundColor: "red" }}><img src="https://miro.medium.com/max/214/1*MQH4A5bsyRz4AWh5V4IfvQ.png"></img></Grid>
+        <Grid lg={3} item style={{ backgroundColor: "white" }}><img src="https://miro.medium.com/max/214/1*MQH4A5bsyRz4AWh5V4IfvQ.png"></img></Grid>
         <Grid lg={6}>
           <div style={{width:"70%", margin:"auto", textAlign:"center"}}>
             <h1 style={{ display: "flex", justifyContent: "center", m: 1, p: 1 }}>Join Medium.</h1>
@@ -48,7 +48,7 @@ function Register() {
             <p style={{ display: "flex", justifyContent: "center", m: 1, p: 1, bgcolor: "background.paper" }}>Already have an account? &nbsp; <a href="./Login">Login</a></p>
           </div>
         </Grid>
-        <Grid lg={3} item style={{ backgroundColor: "red"}}><img src="https://miro.medium.com/max/214/1*lhbp8cxKdkDB-MgmwIPE5w.png"></img></Grid>
+        <Grid lg={3} item style={{ backgroundColor: "white"}}><img src="https://miro.medium.com/max/214/1*lhbp8cxKdkDB-MgmwIPE5w.png"></img></Grid>
       </Grid>
     </Card>
     </div >
