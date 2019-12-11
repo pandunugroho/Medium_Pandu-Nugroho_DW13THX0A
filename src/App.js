@@ -32,9 +32,9 @@ class App extends Component {
             <Route path="/login">
               <Login/>
             </Route>
-          <Route path="/home">
+          {/* <Route path="/home">
               <Home/>
-            </Route>
+            </Route> */}
           </Switch>
         </div>
       </Router>
