@@ -13,6 +13,7 @@ import {
 } from 'react-router-dom';
 import Category from './page/Category';
 import CategoryPage from './page/CategoryPage';
+import ArticleDetails from './page/ArticleDetails';
 
 class App extends Component {
   render() {
@@ -34,9 +35,12 @@ class App extends Component {
             <Route path="/login">
               <Login/>
             </Route>
-          {/* <Route path="/home">
-              <Home/>
-            </Route> */}
+          <Route path="/category-page">
+              <CategoryPage/>
+            </Route>
+          <Route path="/article-details">
+              <ArticleDetails/>
+            </Route>
           </Switch>
         </div>
       </Router>

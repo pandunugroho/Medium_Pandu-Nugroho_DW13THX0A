@@ -20,7 +20,7 @@ class Category extends Component {
             <div style={{margin: "0 8vw 0 8vw"}}>
                 <p>
                     <Link to="/home">Home</Link> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                    OneZero &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <Link to="/category-page">OneZero</Link> &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; 
                     Elemental &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; 
                     Gen &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; 
                     Zora &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
