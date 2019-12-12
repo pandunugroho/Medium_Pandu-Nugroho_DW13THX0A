@@ -1,4 +1,4 @@
-import React, {Component} from 'react'; 
+import React, { Component } from 'react';
 import Register from './page/Register';
 import Login from './page/Login';
 import Home from './page/Home';
@@ -11,33 +11,35 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import Category from './page/Category';
+import CategoryPage from './page/CategoryPage';
 
 class App extends Component {
-  render () {
-    return(
+  render() {
+    return (
       <div>
 
-      <Router>
-        {/* <Header/> */}
-        <Header2/>
-        
-        <div>
-          <Switch>
-          <Route path="/home">
-              <Home/>
-            </Route>
-            <Route path="/register">
-              <Register/>
-            </Route>
-            <Route path="/login">
-              <Login/>
-            </Route>
-          <Route path="/home">
-              <Home/>
-            </Route>
-          </Switch>
-        </div>
-      </Router>
+        <Router>
+          {/* <Header/> */}
+          <Header2 />
+
+          <div>
+            <Switch>
+              <Route path="/home">
+                <Home />
+              </Route>
+              <Route path="/register">
+                <Register />
+              </Route>
+              <Route path="/login">
+                <Login />
+              </Route>
+              <Route path="/category-page">
+                <CategoryPage />
+              </Route>
+            </Switch>
+          </div>
+        </Router>
       </div>
 
     )

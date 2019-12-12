@@ -3,11 +3,15 @@ import Card1 from '../comps/Card1';
 import Card2 from '../comps/Card2';
 import Card3 from '../comps/Card3';
 import { Grid, Button } from '@material-ui/core/';
+import Category from './Category';
 
 class Home extends Component {
     render() {
         return (
             <div style={{ margin: '20px' }}>
+                <div>
+                    <Category/>
+                </div>
                 <Grid container spacing={2} style={{ maxHeight: "150px" }}>
                     <Grid item md={4} style={{ backgroundColor: "white" }}>
                         <Card2 />
@@ -36,7 +40,7 @@ class Home extends Component {
                         <Card3/>
                     </Grid>
                     <Grid item md={3}>
-                        <h2 style={{ backgroundColor: "tomatoo" }}>Popular on Medium</h2>
+                        <h2 style={{ backgroundColor: "tomatoo", marginLeft:"15px"}}>Popular on Medium</h2>
                         <Grid container direction="column">
                             <Grid container direction="row">
                                 <Grid item md={2}>

@@ -23,11 +23,11 @@ export default function Header2() {
 
   return (
     <>
-      <Grid container spacing={2} style={{ maxHeight: "150px" }}>
+      <Grid container spacing={2} style={{ maxHeight: "150px", width:"100vw"}}>
         <div className={classes.root} >
           <AppBar position="static" style={{ backgroundColor: "white", boxShadow:"none", color: "Black" }}>
             <Toolbar>
-              <Grid item md={10} style={{ backgroundColor: "white" }}>
+              <Grid item md={9} style={{ backgroundColor: "white" }}>
                 <Link to="/home">
                   <div>
                     <Typography variant="h6" className={classes.title}>
@@ -36,7 +36,7 @@ export default function Header2() {
                   </div>
                 </Link>
               </Grid>
-              <Grid item md={2} style={{ backgroundColor: "white" }}>
+              <Grid item md={3} style={{ backgroundColor: "white", margin:"0vw 5vw"}}>
                 <Link to="/login">
                   <Button variant="outlined" color="inherit" >Login</Button>
                 </Link>
