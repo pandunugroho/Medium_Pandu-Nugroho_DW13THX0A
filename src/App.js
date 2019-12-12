@@ -1,4 +1,4 @@
-import React, {Component} from 'react'; 
+import React, { Component } from 'react';
 import Register from './page/Register';
 import Login from './page/Login';
 import Home from './page/Home';
@@ -11,10 +11,12 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import Category from './page/Category';
+import CategoryPage from './page/CategoryPage';
 
 class App extends Component {
-  render () {
-    return(
+  render() {
+    return (
       <div>
 
       <Router>

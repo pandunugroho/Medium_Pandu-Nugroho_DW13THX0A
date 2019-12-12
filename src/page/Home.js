@@ -38,7 +38,7 @@ class Home extends Component {
                         <Card3/>
                     </Grid>
                     <Grid item md={3}>
-                        <h2 style={{ backgroundColor: "tomatoo" }}>Popular on Medium</h2>
+                        <h2 style={{ backgroundColor: "tomatoo", marginLeft:"15px"}}>Popular on Medium</h2>
                         <Grid container direction="column">
                             <Grid container direction="row">
                                 <Grid item md={2}>
