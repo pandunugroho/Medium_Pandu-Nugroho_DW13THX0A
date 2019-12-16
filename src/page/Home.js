@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import Card1 from '../comps/Card1';
+// import Card1 from '../comps/Card1';
 import Card2 from '../comps/Card2';
 import Card3 from '../comps/Card3';
 import { Grid, Button } from '@material-ui/core/';
 import Category from './Category';
+import ArticleHighlights from '../comps/ArticleHighlights'
 
 class Home extends Component {
     render() {
@@ -15,11 +16,7 @@ class Home extends Component {
                         <Card2 />
                     </Grid>
                     <Grid item md={4} style={{ backgroundColor: "white" }}>
-                        <Card1 />
-                        <br />
-                        <Card1 />
-                        <br />
-                        <Card1 />
+                        <ArticleHighlights/>
                     </Grid>
                     <Grid item md={4} style={{ backgroundColor: "white" }}>
                         <Card2 />
@@ -28,8 +25,8 @@ class Home extends Component {
                 <Grid container spacing={1} direction="row-reverse" style={{ backgroundColor: "white", marginTop: "36vh" }}>
                     <a href="./home" style={{ textDecoration: "none", color: "green" }}><p> See All Featured > &nbsp; </p></a>
                 </Grid>
-                <hr/>
                 <Grid container style={{ backgroundColor: "bluee" }}>
+                <hr/>
                     <Grid item md={9}>
                         <p style={{ backgroundColor: "white", color:"white"}}>Popular topic</p>
                         <Card3/><br/>
