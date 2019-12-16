@@ -14,6 +14,7 @@ import {
 import Category from './page/Category';
 import CategoryPage from './page/CategoryPage';
 import ArticleDetails from './page/ArticleDetails';
+import Comment from "./page/Comment";
 
 class App extends Component {
   render() {
@@ -28,6 +29,9 @@ class App extends Component {
           <Switch>
           <Route path="/home">
               <Home/>
+            </Route>
+            <Route path="/comment">
+              <Comment/>
             </Route>
             <Route path="/register">
               <Register/>
