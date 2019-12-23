@@ -25,7 +25,7 @@ class Home extends Component {
                 <Grid container spacing={1} direction="row-reverse" style={{ backgroundColor: "white", marginTop: "36vh" }}>
                     <a href="./home" style={{ textDecoration: "none", color: "green" }}><p> See All Featured > &nbsp; </p></a>
                 </Grid>
-                <Grid container style={{ backgroundColor: "bluee" }}>
+                <Grid container style={{ backgroundColor: "blue"}}>
                 <hr/>
                     <Grid item md={9}>
                         <p style={{ backgroundColor: "white", color:"white"}}>Popular topic</p>
