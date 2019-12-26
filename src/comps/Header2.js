@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { makeStyles, AppBar, Toolbar, Typography, Button, IconButton, Grid } from '@material-ui/core';
 import {
   BrowserRouter as Router,
@@ -18,16 +18,16 @@ import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 //   },
 // }));
 
-export default function Header2() {
+export default class Header2 extends Component {
   // const classes = useStyles();
-
+render() {
   return (
     <>
-      <Grid container spacing={2} style={{backgroundColor:"red", maxHeight: "150px", width:"90vw"}}>
+      <Grid container spacing={2} direction="column" style={{backgroundColor:"re0d", maxHeight: "150px", width:"99vw"}}>
         <div flexGrow={10} >
-          {/* <AppBar position="static" style={{ backgroundColor: "white", boxShadow:"none", color: "Black" }}> */}
+          <AppBar position="static" style={{ backgroundColor: "white", boxShadow:"none", color: "Black" }}>
             <Toolbar>
-              <Grid item xs={9} style={{ backgroundColor: "tomato" }}>
+              <Grid item xs={9} style={{ backgroundColor: "toma0to" }}>
                 <Link to="/home">
                   <div>
                     <Typography variant="h6" flexGrow={1}>
@@ -45,9 +45,9 @@ export default function Header2() {
                 </Link>
               </Grid>
             </Toolbar>
-          {/* </AppBar> */}
+          </AppBar>
         </div>
       </Grid>
     </>
   );
-}
+}}

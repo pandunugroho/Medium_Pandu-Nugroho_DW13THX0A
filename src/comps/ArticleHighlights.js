@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Card1 from './Card1';
 
 const ArticleHighlightsData = [
@@ -25,7 +25,7 @@ const ArticleHighlightsData = [
   },
 ]
 
-export default function ArticleHighlights(){
+export default function ArticleHighlights () {
   return(
     <>
       {
@@ -42,9 +42,3 @@ export default function ArticleHighlights(){
     </>
   )
 }
-
-// {
-//   Students.map(Student => (
-//     <h1>{Student.name}</h1>
-//   ))
-// }

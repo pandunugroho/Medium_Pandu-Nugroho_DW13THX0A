@@ -39,24 +39,23 @@ class RelatedArticle extends Component {
     return (
       <div>
 
-        <Grid xs={9} container direction="column" style={{ margin: "2vw 13vw" }}>
+        <Grid xs={9} container direction="column" style={{backgroundColor:"r000ed", margin: "2vw 13vw" }}>
           <Grid> <h3>More From Medium</h3> </Grid>
-          <hr />
 
           {/* map(related article) */}
-          <Grid container direction="row">
+          <Grid container direction="row" style={{backgroundColor:"000tomato",margin:""}}>
             {
               relatedArticles.map(articleData => (
-                <div>
+                <div style={{padding:"2px",width:"24vw"}}>
 
-                  {/* <Grid container direction="column"> */}<Grid style={{ margin: "20px", width: "356px" }}>
+                  <Grid style={{backgroundColor:"re000d"}}>
                     <Grid>
                       <p style={{ color: "grey" }}>More from {articleData.category} </p>
                     </Grid>
                     <Grid item
                       xs={12}
                       style={{
-                        width: "25vw",
+                        width: "23vw",
                         height: "25vh",
                         objectFit: "cover",
                         backgroundImage: `url(${articleData.articleImage})`,
@@ -65,7 +64,7 @@ class RelatedArticle extends Component {
                       }}>
                       <img style={{ width: "100%", objectFit: "cover" }} />
                     </Grid>
-                    <Grid>
+                    <Grid container>
                       <h3>{articleData.articleTitle}</h3>
                     </Grid>
                     <Grid container direction="row">

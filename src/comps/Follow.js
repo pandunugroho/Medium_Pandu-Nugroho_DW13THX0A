@@ -28,11 +28,11 @@ class Follow extends Component {
         <br />
         <Grid container direction="row">
           <Grid xs={2} style={{ padding: "20px" }}><Avatar alt="Remy Sharp" style={{ width: "100px", height: "100px" }} src="https://miro.medium.com/max/368/1*e4AmOPj3A0IbN3im5JKfaQ.png" /></Grid>
-          <Grid xs={7}>
+          <Grid xs={7} style={{backgroundColor:"re000d"}}>
             <p style={{ margin: "65px 0 0 0" }}>54K claps</p>
 
           </Grid>
-          <Grid xs={2} style={{ padding: "50px 0 0 30px" }}><TwitterIcon /><LinkedInIcon /><FacebookIcon /><TurnedInNotIcon /><MoreHorizIcon /></Grid>
+          <Grid xs={2} style={{ backgroundColor:"blu000e", padding: "50px 0 0 0px" }}><TwitterIcon /><LinkedInIcon /><FacebookIcon /><TurnedInNotIcon /><MoreHorizIcon /></Grid>
         </Grid>
         <div><hr style={{ border: "px solid grey" }} /></div>
         <Grid container direction="row">
@@ -42,7 +42,7 @@ class Follow extends Component {
             <h2>Martha Pskowski</h2>
             <p>The best of the best seller of es teller. Lorem sayati insidia karadara snsid sndis ksndi.</p>
           </Grid>
-          <Grid xs={2} style={{ padding: "50px 0 0 30px" }}><Button variant="outlined" >Follow</Button></Grid>
+          <Grid xs={2} style={{ padding: "50px 0 0 23px" }}><Button variant="outlined" >Follow</Button></Grid>
         </Grid>
       </Grid>
       <Grid>
@@ -52,7 +52,7 @@ class Follow extends Component {
             <h2>Misson.org</h2>
             <p>The best of the best buyer of bubur subur. Lorem sayati insidia karadara snsid sndis ksndi.</p>
           </Grid>
-          <Grid xs={2} style={{ padding: "50px 0 0 30px" }}><Button variant="outlined" >Follow</Button></Grid>
+          <Grid xs={2} style={{ padding: "50px 0 0 23px" }}><Button variant="outlined" >Follow</Button></Grid>
         </Grid>
       </Grid>
       <hr />

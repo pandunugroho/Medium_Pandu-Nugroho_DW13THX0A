@@ -10,13 +10,13 @@ class Home extends Component {
     render() {
         return (
             <div style={{ margin: '20px' }}>
-                <Category/>
+                <Category />
                 <Grid container spacing={2} style={{ maxHeight: "150px" }}>
                     <Grid item md={4} style={{ backgroundColor: "white" }}>
                         <Card2 />
                     </Grid>
                     <Grid item md={4} style={{ backgroundColor: "white" }}>
-                        <ArticleHighlights/>
+                        <ArticleHighlights />
                     </Grid>
                     <Grid item md={4} style={{ backgroundColor: "white" }}>
                         <Card2 />
@@ -25,23 +25,22 @@ class Home extends Component {
                 <Grid container spacing={1} direction="row-reverse" style={{ backgroundColor: "white", marginTop: "36vh" }}>
                     <a href="./home" style={{ textDecoration: "none", color: "green" }}><p> See All Featured > &nbsp; </p></a>
                 </Grid>
-                <Grid container style={{ backgroundColor: "blue"}}>
-                <hr/>
+                <Grid container direction="row" style={{margin:"0", backgroundColor: "bl0ue" }}>
                     <Grid item md={9}>
-                        <p style={{ backgroundColor: "white", color:"white"}}>Popular topic</p>
-                        <Card3/><br/>
-                        <Card3/><br/>
-                        <Card3/><br/>
-                        <Card3/>
+                        <p style={{ backgroundColor: "white", color: "white" }}>Popular topic</p>
+                        <Card3 /><br />
+                        <Card3 /><br />
+                        <Card3 /><br />
+                        <Card3 />
                     </Grid>
                     <Grid item md={3}>
-                        <h2 style={{ backgroundColor: "tomatoo", marginLeft:"15px"}}>Popular on Medium</h2>
+                        <h2 style={{ backgroundColor: "tomatoo", marginLeft: "15px" }}>Popular on Medium</h2>
                         <Grid container direction="column">
                             <Grid container direction="row">
                                 <Grid item md={2}>
-                                    <h2 style={{paddingLeft:"1.5vw", color:"grey"}}>01</h2>
+                                    <h2 style={{ paddingLeft: "1.5vw", color: "grey" }}>01</h2>
                                 </Grid>
-                                <Grid item md={10} style={{paddingRight:"90px"}}>
+                                <Grid item md={10} style={{ paddingRight: "90px" }}>
                                     <h5>
                                         Stop Obsessing About Focus: Here’s What Your Mind Really Needs</h5>
                                     <p>Corine Purtill in OneZone</p>
@@ -49,9 +48,9 @@ class Home extends Component {
                             </Grid>
                             <Grid container direction="row">
                                 <Grid item md={2}>
-                                    <h2 style={{paddingLeft:"1.5vw", color:"grey"}}>02</h2>
+                                    <h2 style={{ paddingLeft: "1.5vw", color: "grey" }}>02</h2>
                                 </Grid>
-                                <Grid item md={10} style={{paddingRight:"90px"}}>
+                                <Grid item md={10} style={{ paddingRight: "90px" }}>
                                     <h5>
                                         Stop Obsessing About Focus: Here’s What Your Mind Really Needs</h5>
                                     <p>Corine Purtill in OneZone</p>
@@ -59,9 +58,9 @@ class Home extends Component {
                             </Grid>
                             <Grid container direction="row">
                                 <Grid item md={2}>
-                                    <h2 style={{paddingLeft:"1.5vw", color:"grey"}}>03</h2>
+                                    <h2 style={{ paddingLeft: "1.5vw", color: "grey" }}>03</h2>
                                 </Grid>
-                                <Grid item md={10} style={{paddingRight:"90px"}}>
+                                <Grid item md={10} style={{ paddingRight: "90px" }}>
                                     <h5>
                                         Stop Obsessing About Focus: Here’s What Your Mind Really Needs</h5>
                                     <p>Corine Purtill in OneZone</p>
@@ -69,9 +68,9 @@ class Home extends Component {
                             </Grid>
                             <Grid container direction="row">
                                 <Grid item md={2}>
-                                    <h2 style={{paddingLeft:"1.5vw", color:"grey"}}>04</h2>
+                                    <h2 style={{ paddingLeft: "1.5vw", color: "grey" }}>04</h2>
                                 </Grid>
-                                <Grid item md={10} style={{paddingRight:"90px"}}>
+                                <Grid item md={10} style={{ paddingRight: "90px" }}>
                                     <h5>
                                         Stop Obsessing About Focus: Here’s What Your Mind Really Needs</h5>
                                     <p>Corine Purtill in OneZone</p>
