@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { makeStyles, TextField, Box, Button, Grid, Card } from '@material-ui/core/';
 import {
   BrowserRouter as Router,
@@ -9,21 +9,22 @@ import {
 import Register from './Register';
 
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    '& > *': {
-      display: 'flex',
-      justifyContent:'center',
-      alignItems:'center',
-      margin: theme.spacing(1),
-      width: 200,
+// const useStyles = makeStyles(theme => ({
+//   root: {
+//     '& > *': {
+//       display: 'flex',
+//       justifyContent:'center',
+//       alignItems:'center',
+//       margin: theme.spacing(1),
+//       width: 200,
 
-    },
-  },
-}));
+//     },
+//   },
+// }));
 
-function Login() {
-  const classes = useStyles();
+class Login extends Component {
+  render() {
+  // const classes = useStyles();
   return (
     <div style={{display: "flex", alignItems:"center" , justifyContent: "center", width:"65vw", marginTop:"10vh", marginLeft:"18vw"}}>
     <Card>
@@ -36,9 +37,9 @@ function Login() {
             <div style={{ width: '100%' }}>
               <Box display="flex" justifyContent="center" m={1} p={1} bgcolor="background.paper">
                 <Box p={1} bgcolor="white">
-                  <form className={classes.root} noValidate autoComplete="off" >
+                  <form /*className={classes.root}*/ noValidate autoComplete="off" >
                     <TextField id="standard-basic" label="Username" /><br />
-                    <TextField id="standard-basic" label="Password" />
+                    <TextField id="password" type="password" label="Password" />
                   </form><br />
                   <Button variant="contained" size="lg" fullWidth>Login</Button>
                 </Box>
@@ -53,6 +54,6 @@ function Login() {
     </div >
 
   );
-}
+}}
 
 export default Login

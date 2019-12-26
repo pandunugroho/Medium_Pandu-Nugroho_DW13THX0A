@@ -6,7 +6,7 @@ import {
     Switch,
     Route,
     Link
-  } from 'react-router-dom';
+} from 'react-router-dom';
 
 class CategoryPage extends Component {
     render() {
@@ -17,26 +17,26 @@ class CategoryPage extends Component {
                     <Grid md={7}><h3 style={{ margin: "1vw 12vw 1vw 5vw", backgroundColor: "lim0e" }}>The front lines of the future. A Medium publication about tech and science. &nbsp;</h3></Grid>
                     <Grid md={1}><p style={{ margin: "2vw 4vw", backgroundColor: "ligh0tgrey" }}><Button variant="outlined" size="small">Follow</Button> </p></Grid>
                 </Grid>
-                        <Link to="/article-details" style={{textDecoration:"none"}} >
-                <Grid container style={{ width: "80%", marginLeft: "8%", backgroundColor: "tomato" }}>
+                <Link to="/article-details" style={{ textDecoration: "none" }} >
+                    <Grid container style={{ width: "80%", marginLeft: "8%", backgroundColor: "tomato" }}>
 
-                    <Grid md={8}>
-                        <div style={{ backgroundSize: "cover", height: "300px", width: "100%", backgroundImage: `url(${"https://miro.medium.com/max/4000/1*TBVJ41WGvXQMDZTLhl0RbA.jpeg"})` }}>
-                        </div>
+                        <Grid md={8}>
+                            <div style={{ backgroundSize: "cover", height: "300px", width: "100%", backgroundImage: `url(${"https://miro.medium.com/max/4000/1*TBVJ41WGvXQMDZTLhl0RbA.jpeg"})` }}>
+                            </div>
+                        </Grid>
+
+                        <Grid md={4} style={{ textAlign: "center", display: "flex", flexDirection: "column", justifyContent: "center", m: 1, p: 1 }}>
+
+                            <div>
+                                <h3>Uber Delivery Workers in Mexico Are Tracking Thieves Through Google Maps and WhatsApp Networks</h3>
+                                <p>A 1,000-person WhatsApp community keeps delivery workers safe</p>
+                                <p>Martha Pskowski</p>
+                                <p>Dec 11 · 9 min read</p>
+                            </div>
+                        </Grid>
+
                     </Grid>
-
-                    <Grid md={4} style={{ textAlign: "center", display: "flex", flexDirection: "column", justifyContent: "center", m: 1, p: 1 }}>
-
-                        <div>
-                            <h3>Uber Delivery Workers in Mexico Are Tracking Thieves Through Google Maps and WhatsApp Networks</h3>
-                            <p>A 1,000-person WhatsApp community keeps delivery workers safe</p>
-                            <p>Martha Pskowski</p>
-                            <p>Dec 11 · 9 min read</p>
-                        </div>
-                    </Grid>
-
-                </Grid>
-                        </Link>
+                </Link>
                 <br /><br />
                 <Grid container style={{ width: "80%", marginLeft: "8%", backgroundColor: "lightgrey" }}>
                     <Grid md={4} style={{ textAlign: "center", display: "flex", flexDirection: "column", justifyContent: "center", m: 1, p: 1 }}>
@@ -91,5 +91,4 @@ class CategoryPage extends Component {
         )
     }
 }
-
 export default CategoryPage;

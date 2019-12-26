@@ -23,7 +23,7 @@ export default function Header2() {
 
   return (
     <>
-      <Grid container spacing={2} style={{ maxHeight: "150px", width:"100vw"}}>
+      <Grid container spacing={2} style={{ maxHeight: "150px", width:"99vw"}}>
         <div className={classes.root} >
           <AppBar position="static" style={{ backgroundColor: "white", boxShadow:"none", color: "Black" }}>
             <Toolbar>
