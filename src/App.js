@@ -15,6 +15,7 @@ import Category from './page/Category';
 import CategoryPage from './page/CategoryPage';
 import ArticleDetails from './page/ArticleDetails';
 import Comment from "./page/Comment";
+import Test from './comps/zTest';
 
 class App extends Component {
   render() {
@@ -44,6 +45,12 @@ class App extends Component {
             </Route>
           <Route path="/article-details">
               <ArticleDetails/>
+            </Route>
+            <Route path="/comment">
+              <Comment/>
+            </Route>
+            <Route path="/test">
+              <Test/>
             </Route>
           </Switch>
         </div>

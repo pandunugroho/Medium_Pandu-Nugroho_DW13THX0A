@@ -9,21 +9,21 @@ import {
 import Login from './Login';
 
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    '& > *': {
-      display: 'flex',
-      justifyContent:'center',
-      alignItems:'center',
-      margin: theme.spacing(1),
-      width: 200,
+// const useStyles = makeStyles(theme => ({
+//   root: {
+//     '& > *': {
+//       display: 'flex',
+//       justifyContent:'center',
+//       alignItems:'center',
+//       margin: theme.spacing(1),
+//       width: 200,
 
-    },
-  },
-}));
+//     },
+//   },
+// }));
 
 function Register() {
-  const classes = useStyles();
+  // const classes = useStyles();
   return (
     <div style={{display: "flex", alignItems:"center" , justifyContent: "center", width:"65vw", marginTop:"10vh", marginLeft:"18vw"}}>
     <Card>
@@ -36,7 +36,7 @@ function Register() {
             <div style={{ width: '100%' }}>
               <Box display="flex" justifyContent="center" m={1} p={1} bgcolor="background.paper">
                 <Box p={1} bgcolor="white">
-                  <form className={classes.root} noValidate autoComplete="off" >
+                  <form /*className={classes.root}*/ noValidate autoComplete="off" >
                     <TextField id="standard-basic" label="Your fullname" /><br />
                     <TextField id="standard-basic" label="Your username" /><br />
                     <TextField id="standard-basic" label="Your password" />

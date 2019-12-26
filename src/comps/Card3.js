@@ -38,7 +38,8 @@ const Card3 = ({ articleName, articleImage, author, postDate, minDate }) => (
             <Grid md={4} style={{ backgroundColor: "limee" }}>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTspmqDKUqM91ZDWUpqmSlcZcUbsBfy0u6Ek7-Webet6v-YfuG8&s"
                     width="70%"
-                    height="70%"></img>
+                    height="70%">
+                </img>
             </Grid>
             <Grid md={7} style={{ backgroundColor: "F9F9F9" }}>
                 <h4 style={{ margin: "20px", backgroundColor: "limee", lineHeight: "auto", margin: "5px" }}>Your Family’s Behavioral Patterns Are In Your DNA</h4>
